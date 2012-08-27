@@ -1,0 +1,32 @@
+<?php
+$db_host = "localhost"; // database host
+$db_login = "nirajbya_nirajby"; // database user
+$db_pass= "openit123"; // database password
+$con= mysql_connect($db_host, $db_login, $db_pass);
+
+if (!$con)
+  {
+  die('Could not connect: ' . mysql_error());
+  }
+
+mysql_select_db("nirajbya_mysqldb", $con);
+
+
+$sql = "CREATE TABLE membersinfo 
+(
+SN INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+FirstName varchar(30),
+LastName varchar(30),
+Address varchar(50),
+Email varchar(30),
+Web varchar(30),
+Phone varchar(25),
+Hobbies varchar(50),
+Password varchar(15),
+EntryDate varchar(35),
+IP_Address_Client varchar(30)
+)";
+mysql_query($sql,$con);
+mysql_close($con);
+echo "Table has created successfully.";
+?>

@@ -1,0 +1,122 @@
+
+.closed H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 105%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;list-style-type: none;
+}
+.open H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 105%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;list-style-type: none;
+}
+.closed H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;list-style-type: none;
+}
+.open H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;list-style-type: none;
+}
+.closed A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.closed A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open DIV .closed A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open DIV .closed A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open .open .closed A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open .open .closed A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open .open .open .closed A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open .open .open .closed A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.closed DIV {
+	DISPLAY: none;list-style-type: none;
+}
+.open DIV.closed DIV {
+	DISPLAY: none;list-style-type: none;
+}
+.open {
+	
+}
+.open A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(0.gif) no-repeat 3px 3px
+}
+.open A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(1.gif) no-repeat 3px 3px
+}
+.open .open A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(2.gif) no-repeat 3px 3px;
+}
+.open .open A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet-down.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open .open .open A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet-down.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open .open .open A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet-down.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open .open .open .open A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet-down.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open .open .open .open A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(./images/misc/arrow-bullet-down.gif) no-repeat 3px 3px;list-style-type: none;
+}
+.open DIV A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%;list-style-type: none;
+}
+.open DIV A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%;list-style-type: none;
+}
+.open .open DIV A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%;list-style-type: none;
+}
+.open .open DIV A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%;list-style-type: none;
+}
+.open .open .open DIV A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%;list-style-type: none;
+}
+.open .open .open DIV A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%;list-style-type: none;
+}
+.open .open .open .open DIV A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%;list-style-type: none;
+}
+.open .open .open .open DIV A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%;list-style-type: none;
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+UNKNOWN {
+	PADDING-RIGHT: 15px; BACKGROUND: url(./images/misc/external.png) no-repeat right center
+}
+.open DIV {
+	PADDING-RIGHT: 5px;
+	DISPLAY: block;
+	PADDING-LEFT: 20px;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 0px;
+	COLOR: #000;
+	PADDING-TOP: 2px;
+	list-style-type: none;
+}
+.open IMG {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none
+}
+.closed IMG {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none
+}
+.open P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.nope li{
+	list-style-type: none;
+}
